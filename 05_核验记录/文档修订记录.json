@@ -1,0 +1,26 @@
+{
+  "rewritten_paragraphs": 25,
+  "added_principle_paragraphs": 7,
+  "detector_retested": false,
+  "claimed_rate": null,
+  "basis": [
+    "rtl/image_cache_control.v",
+    "console/rtl/stft_512_fft.v",
+    "sim/tb_filming_cadence.v",
+    "docs/ARCHITECTURE.md"
+  ],
+  "final_pages": 21,
+  "removed_duplicate_coverage_table": true,
+  "verified_ai_percentage": null,
+  "followup_revision": {
+    "extension_last_sentence_removed": true,
+    "reflection_rewritten_in_first_person": true,
+    "pages": 21
+  },
+  "indent_revision": {
+    "body_first_line_chars": 2,
+    "reflection_paragraphs": 3,
+    "content_unchanged": true,
+    "pages": 21
+  }
+}

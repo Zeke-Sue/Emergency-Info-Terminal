@@ -1,0 +1,113 @@
+{
+  "version": "2026-10-27",
+  "boards": {
+    "A": {
+      "sha256": "a15fc38f9d1b4bacdbda53f371f576bcfe1d965411e6e81bc700ec20a31680a7",
+      "timing": {
+        "Setup_ps": 141,
+        "Hold_ps": 20
+      },
+      "resources": {
+        "lut": 17950,
+        "reg": 9738,
+        "bram": 51,
+        "bram32k": 13,
+        "dsp": 12
+      },
+      "source_files": 193,
+      "programming": {
+        "program_verify": "PASS",
+        "independent_done": "PASS",
+        "finished": "2026-10-27 16:55:51 +0800",
+        "bit_sha256": "A15FC38F9D1B4BACDBDA53F371F576BCFE1D965411E6E81BC700EC20A31680A7"
+      }
+    },
+    "B": {
+      "sha256": "7608d29485a875826447aaa9b0d2d1343f4dbcf4322dfc81e7c31d77f811ac31",
+      "timing": {
+        "Setup_ps": 4913,
+        "Hold_ps": 20
+      },
+      "resources": {
+        "lut": 9490,
+        "reg": 6251,
+        "bram": 16,
+        "bram32k": 0,
+        "dsp": 10
+      },
+      "source_files": 59,
+      "programming": {
+        "program_verify": "PASS",
+        "independent_done": "PASS",
+        "finished": "2026-10-27 23:18:03 +0800",
+        "bit_sha256": "7608D29485A875826447AAA9B0D2D1343F4DBCF4322DFC81E7C31D77F811AC31"
+      }
+    }
+  },
+  "reference_regression": [
+    "tb_simple_media_controls",
+    "tb_controls",
+    "tb_image_cache_16",
+    "tb_viewport_transition_pin",
+    "tb_scaler_fractional",
+    "tb_scaler_portrait_down",
+    "tb_scaler_five_four",
+    "tb_scaler_three_two",
+    "tb_scaler",
+    "tb_bad_image_skip",
+    "tb_slideshow_lookahead",
+    "tb_filming_cadence",
+    "tb_filming_profile",
+    "tb_fire_control_composition",
+    "tb_clean_presentation",
+    "tb_usability_periods",
+    "tb_daily_control",
+    "tb_status_display",
+    "tb_route_guidance",
+    "tb_wav_window",
+    "tb_audio_health",
+    "tb_health_overlay",
+    "tb_usability_map",
+    "tb_fixed_catalog_full32",
+    "tb_fixed_catalog_human",
+    "tb_fat32_root_catalog",
+    "tb_human_stage_audio",
+    "tb_single_card_streamer",
+    "tb_human_daily_follow",
+    "tb_live_route",
+    "tb_live_route_overlay",
+    "tb_remote_ui",
+    "tb_pcm_context",
+    "tb_page_tones",
+    "tb_extension_system",
+    "tb_route_console_keys",
+    "tb_extension_subtitle_scanout",
+    "tb_daily_subtitle_scroll",
+    "tb_scaler_wide",
+    "tb_scaler_downsample",
+    "tb_fit_geometry",
+    "tb_bmp_header_predicates",
+    "tb_spectrum_uart",
+    "tb_stft_512_fft",
+    "tb_event_authority_roles_link",
+    "tb_extension_manual_real",
+    "tb_route_media_pipeline"
+  ],
+  "reference_regression_count": 47,
+  "logic_token_equivalence": {
+    "result": "PASS",
+    "files": 375
+  },
+  "source_baseline": [
+    {
+      "board": "A",
+      "verified_files": 193,
+      "result": "PASS"
+    },
+    {
+      "board": "B",
+      "verified_files": 59,
+      "result": "PASS"
+    }
+  ]
+}

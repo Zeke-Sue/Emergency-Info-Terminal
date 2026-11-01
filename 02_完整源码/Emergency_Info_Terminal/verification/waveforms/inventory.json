@@ -1,0 +1,286 @@
+{
+  "tests": [
+    {
+      "result": "PASS",
+      "bytes": 794984448,
+      "test": "tb_simple_media_controls",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_controls",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_image_cache_16",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_viewport_transition_pin",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 655360,
+      "test": "tb_scaler_fractional",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 450560,
+      "test": "tb_scaler_portrait_down",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 483328,
+      "test": "tb_scaler_five_four",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 696320,
+      "test": "tb_scaler_three_two",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 376832,
+      "test": "tb_scaler",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_bad_image_skip",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 688128,
+      "test": "tb_slideshow_lookahead",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 286720,
+      "test": "tb_filming_cadence",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 29171712,
+      "test": "tb_filming_profile",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 197402624,
+      "test": "tb_fire_control_composition",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_clean_presentation",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_usability_periods",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_daily_control",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 18382848,
+      "test": "tb_status_display",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_route_guidance",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_wav_window",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 737280,
+      "test": "tb_audio_health",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 81920,
+      "test": "tb_health_overlay",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 2170880,
+      "test": "tb_usability_map",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 139264,
+      "test": "tb_fixed_catalog_full32",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 106496,
+      "test": "tb_fixed_catalog_human",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 73728,
+      "test": "tb_fat32_root_catalog",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_human_stage_audio",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_single_card_streamer",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 49152,
+      "test": "tb_human_daily_follow",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 2138112,
+      "test": "tb_live_route",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 57344,
+      "test": "tb_live_route_overlay",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 73080832,
+      "test": "tb_remote_ui",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 10461184,
+      "test": "tb_pcm_context",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 3416064,
+      "test": "tb_page_tones",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 769540096,
+      "test": "tb_extension_system",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 27574272,
+      "test": "tb_route_console_keys",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 15081472,
+      "test": "tb_extension_subtitle_scanout",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 4481024,
+      "test": "tb_daily_subtitle_scroll",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 360448,
+      "test": "tb_scaler_wide",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 327680,
+      "test": "tb_scaler_downsample",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 3948544,
+      "test": "tb_fit_geometry",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 248176640,
+      "test": "tb_bmp_header_predicates",
+      "included": false
+    },
+    {
+      "result": "PASS",
+      "bytes": 1548288,
+      "test": "tb_spectrum_uart",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 1245184,
+      "test": "tb_stft_512_fft",
+      "included": true
+    },
+    {
+      "result": "PASS",
+      "bytes": 109117440,
+      "test": "tb_event_authority_roles_link",
+      "included": false
+    }
+  ],
+  "completed_wave_tests": 45,
+  "all_regression_tests": 47,
+  "full_wave_bytes_lower_bound": 2318082048,
+  "included_wave_bytes": 25108480,
+  "not_recorded_to_completion": [
+    "tb_extension_manual_real",
+    "tb_route_media_pipeline"
+  ],
+  "reason": "Completed traces already exceed 200 MB; remaining long traces omitted. Original 47-test passing logs remain in verification/submission/logs.",
+  "recording": "log -r /*; +acc; start to test completion; memories not explicitly expanded",
+  "source_snapshot": "D:\\TD\\submission_20261031_sim\\20261031_173501_514_usability",
+  "source_match": "All 433 other recorded inputs match; run_modelsim.ps1 adds optional waveform recording only."
+}

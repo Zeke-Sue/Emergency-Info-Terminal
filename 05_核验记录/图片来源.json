@@ -1,0 +1,111 @@
+{
+  "overview": {
+    "file": "03_作品照片/01_作品全貌.jpg",
+    "source": "FPGA.MOV",
+    "time_seconds": 215,
+    "sha256": "47152701d02f1bd744eb4355998dbc5123c9583ab5102addb0d56ad61f268273"
+  },
+  "board_photo": {
+    "file": "03_作品照片/02_开发板重要角度.jpg",
+    "source": "用户提供 fc9341d2240e13655853e40184bd0573.jpg",
+    "processing": "原文件复制，无裁剪、调色、重绘或生成",
+    "sha256": "6aa74b21bb8ca20430a7f49960fca336df337fc1b64dffdf488330bf24f559a0"
+  },
+  "report_figures_1_4": {
+    "type": "依据项目ARCHITECTURE.md、技术报告和RTL接口绘制的工程示意图",
+    "not_photographs": true
+  },
+  "report_video_frames": [
+    {
+      "figure": "图8_双板整机实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图8_双板整机实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        215
+      ],
+      "crop_original_pixels": null,
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "0a0dadfd95fb2e66b03dd84948b7cf43ab323ac0f444f411ab81950d2381b611"
+    },
+    {
+      "figure": "图9_画面参数菜单实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图9_画面参数菜单实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        240,
+        275
+      ],
+      "crop_original_pixels": [
+        810,
+        0,
+        2640,
+        1200
+      ],
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "9f9f3db1654255429a175eb7ccdc13ac55aea838ab3467081addbca1cabba5e6"
+    },
+    {
+      "figure": "图10_PCM可视化实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图10_PCM可视化实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        330,
+        170
+      ],
+      "crop_original_pixels": [
+        810,
+        0,
+        2640,
+        1200
+      ],
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "1b6a0d6f2bd1a4359b4dce8334d14fef711374f6e3670bfdbb6766cbbb6ed856"
+    },
+    {
+      "figure": "图11_告警与解除实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图11_告警与解除实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        390,
+        420
+      ],
+      "crop_original_pixels": [
+        810,
+        0,
+        2640,
+        1200
+      ],
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "8290dd091e5a854cb03469baf18166a75141ad4206e21b4cd8997c77166cd623"
+    },
+    {
+      "figure": "图12_火警选区改道实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图12_火警选区改道实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        455,
+        475
+      ],
+      "crop_original_pixels": [
+        810,
+        0,
+        2640,
+        1200
+      ],
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "db48efb70944bc1cf749d3be47b0c06e632bca260a3660d2df43c5ba72c64cfc"
+    },
+    {
+      "figure": "图13_连续轮播30分钟实拍",
+      "file": "D:\\安路资料\\双板协同应急信息终端_提交材料待验收_20261031\\01_技术文档\\插图\\实拍_20261101\\图13_连续轮播30分钟实拍.jpg",
+      "source": "V:/视频剪辑/FPGA.MOV",
+      "times_seconds": [
+        553,
+        2353
+      ],
+      "crop_original_pixels": null,
+      "processing": "按视频旋转元数据解码；裁剪（如注明）、等比缩放、图外标签；未重绘屏幕或改变路线/计时数字",
+      "sha256": "1d0e2ce01dfbd08daebeb242152930cc780282363be091c26ff8f257df7731ff"
+    }
+  ]
+}

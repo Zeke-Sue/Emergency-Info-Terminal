@@ -1,0 +1,23 @@
+Location         : D:\TD\presentation_B\Duty_Console_B_20261026_232556\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : duty_console_top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS  4913ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    20ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+    fix_hold     |    1     |  30s(39%)   |    30(27%)    |        875        |        875        
+      place      |    1     |  23s(30%)   |    37(33%)    |        458        |        458        
+      route      |    1     |  23s(30%)   |    43(39%)    |        874        |        874        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        216        |        216        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        98         |        98         
+--------------------------------------------------------------------------------------------------
+      total      |    5     |    1m16s    |      110      |        875        |        875        
+--------------------------------------------------------------------------------------------------

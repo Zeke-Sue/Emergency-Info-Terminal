@@ -1,0 +1,197 @@
+{
+  "profile": "full-screen 4:3; all inputs >=640x480; output 640x480",
+  "clips": [
+    {
+      "index": 0,
+      "start_sample": 0,
+      "sample_limit": 240000,
+      "speech_seconds": 2.9072916666666666,
+      "text": "请沿绿色路线，前往一号出口。"
+    },
+    {
+      "index": 1,
+      "start_sample": 240000,
+      "sample_limit": 240000,
+      "speech_seconds": 3.01525,
+      "text": "请沿绿色路线，前往二号出口。"
+    },
+    {
+      "index": 2,
+      "start_sample": 480000,
+      "sample_limit": 240000,
+      "speech_seconds": 3.0414375,
+      "text": "请沿绿色路线，前往三号出口。"
+    },
+    {
+      "index": 3,
+      "start_sample": 720000,
+      "sample_limit": 240000,
+      "speech_seconds": 3.2074166666666666,
+      "text": "路线暂不可用，请听从现场指挥。"
+    }
+  ],
+  "files": {
+    "AUDIO00.WAV": "35781262e3dd1f4be99e69bf0900cfc827e1f4f531efdfe1c8d9156e6363eea4",
+    "AUDIO01.WAV": "53ed1c9c59eec50d6985b407ce768c325c5666f9dde4d18dfe5f0e3e10a34530",
+    "AUDIO02.WAV": "f1c4facd9a6af6ad3b5c6a5a068fee580efe7e579e90cea8f5116c8dcd6210e1",
+    "AUDIO03.WAV": "88b16c581ea2ad351cf7ef4859848f245fb78f280734d91a5e53bece6f7dd152",
+    "AUDIO04.WAV": "43cb861ef48e0e59fd3a467e5d8a9342ec942be57e4dcb3345e7886a6d5f7473",
+    "AUDIO05.WAV": "93bf2ea7aa6b3d4ed09ba794cb91222ffd8b255a32fa2b95c4cf09d3397b3a53",
+    "AUDIO06.WAV": "d5f666c7c5f0ed995c49f03370fa75b58b593037be77d36f3db5b0eb3c651799",
+    "AUDIO07.WAV": "e94e95eff04f25eeb8a3ec52c8cc78213171bb81102a3602c111fae954e82f5d",
+    "AUDIO08.WAV": "0ec3fd273d8bccac9c78ba0c6af0dcd35638968a34c3bcc20cf109df2389d5b3",
+    "AUDIO09.WAV": "347430ea4c0c41201160d7a9975a7aab853706284d6b81a17d8513bc3f097899",
+    "AUDIO10.WAV": "a09d233b054778b31060514d7d09a9f672999b9a67af6f0f73ca18b7cd1c3a87",
+    "AUDIO11.WAV": "76719b2189ed9cbc6aa54f3ed5989dc5bb05948a6b8989895d98b5dd09a88dbb",
+    "AUDIO12.WAV": "6a1b4aaedc4aff74c3363f885d00b5b6d27952c3ab5f2c784f46c7ba4d60a64f",
+    "AUDIO13.WAV": "92a40bae47445d8102c56b2a60aec0d81bc591d694b3ec3878171bd25b8b4c19",
+    "AUDIO14.WAV": "d52bc0965c27fb39ca22ae4ce0656e0e834021a505f6524fc11c242223de0e50",
+    "AUDIO15.WAV": "b2c1e1bab6a2c1c080bb7575d0bbe817d578571a35b2513de4666007f93d0d49",
+    "IMAGE01.BMP": "243c6cf6116e47aba917bafa7cd4fa670604c6308b216005ffd1f53178d4d374",
+    "IMAGE02.BMP": "09ab13146fadde3f046336ba59465c42b065966108675015d90464336184f24c",
+    "IMAGE03.BMP": "c2d8de0bc2aa7bdaa0ea2cda0f8fb82573ece4f1013b5a21f69b9e0ab658ee04",
+    "IMAGE04.BMP": "d3ed4f9300db10b4e6ed76c5de4b9da8b485489dee0aa935f1b67008f1a05694",
+    "IMAGE05.BMP": "fb5f238bfdb7d33ad81e797231afd99808e23d1c7c891314285c406cef65b3ac",
+    "IMAGE06.BMP": "2a302a9eedcbe92c208f0d6a7ad671250aa599ff90187d83766bc4d8208c0774",
+    "IMAGE07.BMP": "90bae84d27999edbc4330f99ba559662540f0cf16859fddea2dc4e62c495d589",
+    "IMAGE08.BMP": "196292bc3845c8c00e4e01ca8e0a92a270badec43f7efe2b28e81c8cadc2fa01",
+    "IMAGE09.BMP": "a2298d9e2c54f5f377fdcc64e3ae5126820c4fd1a2c872b59d61137e58a87fd9",
+    "IMAGE10.BMP": "14800124b640614a5b1256b1828058baf57a227738f1e0b0d14ce6e24ca87d1a",
+    "IMAGE11.BMP": "3005ae2d6c0f3e7c89ab026debd642892aa0834f0bb7bf121c22f4f33a79557e",
+    "IMAGE12.BMP": "b914e8b16a1c48351a3c03a9b299b8f39a8b9038494db42bda8d7a30708e4146",
+    "IMAGE13.BMP": "0cb1038a2d8d3adf3860650972f4699059647fdb78c96a18bc07d978ef40a1a8",
+    "IMAGE14.BMP": "0628dbde16a0a76962240ac2602c3906e62533d1a45a3f1f142d67935c201002",
+    "IMAGE15.BMP": "8f89ef7d9611179eac415fdac1e64f07a1c8bc0a43e109385d59bc03f7475541",
+    "IMAGE16.BMP": "74283cb142d177fede572fe292f587cbd28fa48cd4486387fd567b87500ff60f"
+  },
+  "images": {
+    "IMAGE01.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE01.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE02.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE02.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE03.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE03.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE04.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE04.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE05.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE05.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE06.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE06.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE07.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE07.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE08.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE08.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE09.BMP": {
+      "size": [
+        1280,
+        960
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE09.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE10.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE10.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE11.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE11.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE12.BMP": {
+      "size": [
+        800,
+        600
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE12.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE13.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE13.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE14.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE14.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE15.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE15.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    },
+    "IMAGE16.BMP": {
+      "size": [
+        640,
+        480
+      ],
+      "source": "D:\\安路资料\\Emergency_Info_Terminal_20260927\\media\\human_bright_20261011_r2\\A\\IMAGE16.BMP",
+      "method": "clean original; Lanczos only for larger test inputs"
+    }
+  }
+}

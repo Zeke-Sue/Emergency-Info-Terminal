@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "report_pages": 21,
+  "report_figures": 13,
+  "report_bytes": 1665384,
+  "poster_bytes": 2663136,
+  "all_report_pages_visually_reviewed": true,
+  "poster_visually_reviewed": true,
+  "template_header_footer_xml_identical": true,
+  "source_copy_files": 684,
+  "source_copy_bytes": 108236747,
+  "source_copy_sha256_identical": true,
+  "source_manifest_check": "PASS: 683 files verified",
+  "rtl_changed": false,
+  "regression_this_turn": "not rerun; existing 47/47 PASS records retained",
+  "new_board_photo_original_bytes_preserved": true,
+  "videos_included": false,
+  "report_tables": 8,
+  "detector_retested": false,
+  "verified_ai_percentage": null,
+  "revision": "2026-11-01 正文首行缩进统一为两字符，心得拆分为独立段落"
+}

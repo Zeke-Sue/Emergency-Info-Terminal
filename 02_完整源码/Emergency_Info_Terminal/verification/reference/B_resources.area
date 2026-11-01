@@ -1,0 +1,81 @@
+standard
+***Report Model: duty_console_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        42   out of    188   22.34%
+  #input                   13
+  #output                  28
+  #inout                    1
+
+LUT Statistics
+#Total_luts              7406
+  #lut4                  6472
+  #lut5                   908
+  #lut6                    26
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                     9490   out of  19600   48.42%
+#reg                     6251   out of  19600   31.89%
+#bram                      16   out of     64   25.00%
+  #bram9k                  16
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                       10   out of     29   34.48%
+#pad                       46   out of    188   24.47%
+  #ireg                    11
+  #oreg                     4
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------+
+|Instance                                     |Module                    |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------+
+|top                                          |duty_console_top          |8461    |1029    |6266    |16      |10      |
+|  audio_diagnostics$health                   |audio_health_packetizer   |330     |82      |235     |0       |1       |
+|  authority                                  |console_event_authority   |1414    |154     |1094    |1       |0       |
+|    events                                   |event_manager             |865     |100     |587     |1       |0       |
+|      table_memory                           |buffer_ram                |35      |0       |0       |1       |0       |
+|    permission                               |operator_permission       |3       |0       |0       |0       |0       |
+|    request_hold                             |console_hold_buffer       |64      |0       |0       |0       |0       |
+|  control                                    |duty_console_core         |353     |53      |260     |0       |0       |
+|    confirmation                             |operator_confirmation     |111     |18      |52      |0       |0       |
+|  display                                    |duty_console_display      |48      |8       |15      |0       |0       |
+|  framer                                     |console_status_framer     |203     |0       |139     |0       |0       |
+|    payload_hold                             |console_hold_buffer       |168     |0       |0       |0       |0       |
+|  journal                                    |console_log_journal       |334     |18      |237     |0       |0       |
+|    boot_hold                                |console_hold_buffer       |64      |0       |0       |0       |0       |
+|  keys                                       |key_events_shared         |221     |33      |154     |0       |0       |
+|  live_routes$route_solver                   |live_route_packetizer     |640     |66      |289     |4       |0       |
+|    graph                                    |live_floor_graph          |14      |0       |0       |0       |0       |
+|    solver                                   |n10_graph_solver          |554     |46      |248     |4       |0       |
+|      edge_memory                            |buffer_ram                |1       |0       |0       |2       |0       |
+|      node_memory                            |buffer_ram                |39      |0       |0       |2       |0       |
+|  log_events                                 |console_event_log_manager |229     |18      |200     |0       |0       |
+|    ack_hold                                 |console_hold_buffer       |64      |0       |0       |0       |0       |
+|  log_flash                                  |spi_nor_log_transport     |680     |46      |502     |0       |0       |
+|    byte_master                              |spi_mode0_byte_master     |28      |0       |14      |0       |0       |
+|  pcm_link                                   |pcm_context_rx            |169     |13      |236     |0       |0       |
+|    serial                                   |uart_rx_8n1               |35      |0       |29      |0       |0       |
+|  receiver                                   |uart_rx_8n1               |43      |5       |33      |0       |0       |
+|  remote_ui$status_layout                    |status_rows_packetizer    |241     |34      |147     |0       |0       |
+|    layout                                   |console_status_rows       |25      |23      |0       |0       |0       |
+|  replies                                    |console_reply_parser      |312     |37      |459     |0       |0       |
+|    payload_hold                             |console_hold_buffer       |64      |0       |0       |0       |0       |
+|  resync_framer                              |v41_record_framer         |292     |25      |133     |0       |0       |
+|  resync_sender                              |v41_resync_sender         |200     |9       |158     |0       |0       |
+|    event_hold                               |console_hold_buffer       |106     |0       |0       |0       |0       |
+|  single_card_control$live_analysis$analyzer |stft_512_fft              |1392    |368     |1384    |9       |9       |
+|    capture_memory                           |buffer_ram                |0       |0       |0       |1       |0       |
+|    hann_rom                                 |sine_quarter_rom          |63      |9       |0       |0       |0       |
+|    transform                                |fft                       |648     |176     |1035    |8       |8       |
+|  spectrum_link                              |spectrum_packetizer       |493     |26      |339     |2       |0       |
+|    bank0                                    |buffer_ram                |6       |0       |0       |1       |0       |
+|    bank1                                    |buffer_ram                |6       |0       |0       |1       |0       |
+|  status_framer                              |console_status_framer     |496     |9       |154     |0       |0       |
+|    payload_hold                             |console_hold_buffer       |446     |0       |0       |0       |0       |
+|  transmitter                                |uart_tx_8n1               |310     |5       |22      |0       |0       |
++---------------------------------------------------------------------------------------------------------------------+

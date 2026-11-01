@@ -1,0 +1,23 @@
+Location         : D:\TD\display_dwell_A_seed8\Emergency_Info_Terminal_20261027_133430\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : hdmi_player_top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS   141ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    20ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      route      |    1     |  2m3s(49%)  |   190(54%)    |       1356        |       1356        
+    fix_hold     |    1     |  1m9s(27%)  |    70(20%)    |       1357        |       1357        
+      place      |    1     |  56s(22%)   |    89(25%)    |       1004        |       1148        
+    import_db    |    1     |   1s(0%)    |     0(0%)     |        409        |        409        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        100        |        100        
+--------------------------------------------------------------------------------------------------
+      total      |    5     |    4m9s     |      349      |       1357        |       1357        
+--------------------------------------------------------------------------------------------------

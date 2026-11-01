@@ -1,0 +1,5 @@
+# Root-level local build and temporary output only.
+/build/
+/tmp/
+/.venv/
+__pycache__/

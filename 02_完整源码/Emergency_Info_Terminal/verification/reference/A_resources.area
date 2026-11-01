@@ -1,0 +1,181 @@
+standard
+***Report Model: hdmi_player_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        36   out of    188   19.15%
+  #input                   11
+  #output                  24
+  #inout                    1
+
+LUT Statistics
+#Total_luts             14302
+  #lut4                 11940
+  #lut5                  2088
+  #lut6                   274
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    17950   out of  19600   91.58%
+#reg                     9738   out of  19600   49.68%
+#bram                      51   out of     64   79.69%
+  #bram9k                  51
+  #fifo9k                   0
+#bram32k                   13   out of     16   81.25%
+#dsp                       12   out of     29   41.38%
+#pad                       40   out of    188   21.28%
+  #ireg                     9
+  #oreg                     9
+  #treg                     1
+#pll                        2   out of      4   50.00%
+#gclk                       2   out of     16   12.50%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                         |Module                             |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------------------------------------------+
+|top                                              |hdmi_player_top                    |16263   |1687    |9757    |64      |12      |
+|  card                                           |sd_card_top                        |484     |30      |279     |0       |0       |
+|    sd_card_cmd_m0                               |sd_card_cmd                        |241     |18      |116     |0       |0       |
+|    sd_card_sec_read_write_m0                    |sd_card_sec_read_write             |182     |7       |119     |0       |0       |
+|    spi_master_m0                                |spi_master                         |61      |5       |44      |0       |0       |
+|  clocks                                         |clock_reset                        |29      |11      |47      |0       |0       |
+|    pixel_release                                |clock_startup_reset                |14      |5       |23      |0       |0       |
+|      release_sync                               |reset_release_falling              |1       |0       |3       |0       |0       |
+|    sys_release                                  |clock_startup_reset                |15      |6       |24      |0       |0       |
+|      release_sync                               |reset_release_falling              |1       |0       |3       |0       |0       |
+|  console_link                                   |p3_uart_endpoint                   |1140    |26      |1079    |0       |0       |
+|    event_id_hold                                |physical_hold_buffer               |32      |0       |0       |0       |0       |
+|    level_hold                                   |physical_hold_buffer               |6       |0       |0       |0       |0       |
+|    parser                                       |uart_protocol_parser               |355     |4       |446     |0       |0       |
+|    receiver                                     |uart_rx_8n1                        |38      |5       |32      |0       |0       |
+|    replies                                      |uart_reply_framer                  |179     |12      |23      |0       |0       |
+|    sessions                                     |uart_single_session_filter         |73      |0       |70      |0       |0       |
+|    transmitter                                  |uart_tx_8n1                        |32      |5       |21      |0       |0       |
+|  core                                           |media_core                         |12725   |1429    |5881    |48      |12      |
+|    alarm_mix                                    |emergency_audio_mixer              |778     |137     |249     |1       |5       |
+|      generator                                  |earthquake_tone_generator          |391     |32      |124     |1       |0       |
+|        voices                                   |buffer_ram                         |57      |0       |0       |1       |0       |
+|        waveform                                 |sine_quarter_rom                   |60      |5       |0       |0       |0       |
+|      site_generator                             |site_notice_tone                   |167     |18      |62      |0       |0       |
+|        waveform                                 |sine_quarter_rom                   |59      |5       |0       |0       |0       |
+|    audio                                        |pcm_audio                          |47      |14      |27      |0       |0       |
+|    cache                                        |frame_store                        |457     |84      |424     |14      |0       |
+|      bit18_hold                                 |physical_hold_buffer               |2       |0       |0       |0       |0       |
+|      bit20_hold                                 |physical_hold_buffer               |2       |0       |0       |0       |0       |
+|      bit5_hold                                  |physical_hold_buffer               |2       |0       |0       |0       |0       |
+|      bit9_hold                                  |physical_hold_buffer               |2       |0       |0       |0       |0       |
+|      dual_lines$l0                              |packed_line_bank                   |0       |0       |0       |6       |0       |
+|      lane0                                      |packed_line_bank                   |0       |0       |0       |6       |0       |
+|      write_memory                               |buffer_ram                         |34      |0       |0       |2       |0       |
+|    controls                                     |player_control                     |193     |31      |80      |0       |0       |
+|    daily_follow$follow                          |human_daily_follow                 |60      |8       |32      |0       |0       |
+|    emergency                                    |emergency_control_core             |240     |44      |295     |0       |0       |
+|      flash_timing                               |alarm_flash_timing                 |73      |12      |31      |0       |0       |
+|      remote_events$events                       |event_snapshot_sink                |66      |11      |176     |0       |0       |
+|      timebase                                   |global_timebase                    |33      |10      |20      |0       |0       |
+|    human_assets$audio_requests                  |human_stage_audio_requests         |117     |6       |59      |0       |0       |
+|    key_filters                                  |key_events_shared                  |209     |33      |141     |0       |0       |
+|    legacy$daily_keys                            |daily_control                      |96      |0       |50      |0       |0       |
+|    loader                                       |bmp_preloader                      |4288    |423     |2255    |7       |1       |
+|      files                                      |fat32_file_reader                  |2544    |156     |1422    |3       |0       |
+|        metadata_memory                          |buffer_ram                         |0       |0       |0       |1       |0       |
+|        root_catalog                             |fat32_sorted_catalog               |662     |30      |509     |1       |0       |
+|          metadata                               |buffer_ram                         |1       |0       |0       |1       |0       |
+|          scanner                                |fat32_root_catalog                 |187     |5       |258     |0       |0       |
+|        sector_memory                            |buffer_ram                         |19      |0       |0       |1       |0       |
+|      source_row_memory0                         |source_line_ram                    |40      |0       |0       |2       |0       |
+|        high_byte                                |buffer_ram_32k                     |0       |0       |0       |2       |0       |
+|      source_row_memory1                         |source_line_ram                    |2       |0       |0       |2       |0       |
+|        high_byte                                |buffer_ram_32k                     |0       |0       |0       |2       |0       |
+|    narration                                    |narration_timeline                 |262     |13      |140     |1       |0       |
+|      cue_memory                                 |buffer_ram                         |3       |0       |0       |1       |0       |
+|    native_test_audio$page_tones$diagnostic_tone |page_test_tone_48k                 |31      |5       |22      |0       |0       |
+|    output_conditioner                           |audio_output_stage                 |277     |56      |97      |0       |1       |
+|    panel_test                                   |panel_test_control                 |49      |4       |23      |0       |0       |
+|    remote_e5_analysis$receiver                  |remote_spectrum_receiver           |225     |22      |212     |3       |0       |
+|      ring0                                      |buffer_ram_32k                     |1       |0       |0       |1       |0       |
+|      ring1                                      |buffer_ram_32k                     |1       |0       |0       |1       |0       |
+|      staging                                    |buffer_ram                         |0       |0       |0       |1       |0       |
+|    route_snapshot$snapshot                      |live_route_state                   |16      |0       |161     |0       |0       |
+|    slots                                        |image_cache_control                |245     |0       |100     |0       |0       |
+|    tf_narration_stream$ring                     |sdram_audio_ring                   |101     |15      |108     |0       |0       |
+|    tf_narration_stream$sample_fifo              |audio_sample_fifo                  |90      |12      |93      |1       |0       |
+|    tf_narration_stream$streamer                 |narration_wav_streamer             |510     |62      |298     |0       |0       |
+|      canonical_profile$parser                   |wav_canonical_pcm_parser           |255     |32      |149     |0       |0       |
+|    video                                        |video_scanout                      |4344    |448     |953     |21      |5       |
+|      blend                                      |dual_source_blend                  |30      |30      |0       |0       |2       |
+|      console_proxy                              |console_proxy_overlay              |22      |8       |0       |0       |0       |
+|        card$ui                                  |console_status_card                |22      |8       |0       |0       |0       |
+|      current_mapper                             |shared_coordinate_mapper           |80      |21      |0       |0       |0       |
+|      disaster_ticker$ticker                     |alarm_disaster_ticker              |267     |8       |14      |0       |0       |
+|        font                                     |disaster_font                      |236     |0       |0       |0       |0       |
+|      effects                                    |video_effects                      |344     |132     |123     |1       |1       |
+|        stable_waveform$capture                  |audio_waveform_capture             |82      |9       |22      |1       |0       |
+|          samples                                |buffer_ram                         |15      |0       |0       |1       |0       |
+|      emergency_page                             |alarm_page_renderer                |325     |51      |49      |0       |0       |
+|        modern_title$font                        |alarm_title_font                   |208     |0       |0       |0       |0       |
+|      final_subtitles$scrolling$subtitles        |daily_subtitle_overlay             |327     |20      |119     |6       |0       |
+|        bitmap                                   |daily_subtitle_strip_rom           |2       |2       |3       |4       |0       |
+|        legacy                                   |subtitle_overlay_renderer          |22      |8       |29      |1       |0       |
+|          bitmap                                 |subtitle_bitmap_rom                |3       |0       |3       |1       |0       |
+|        timing                                   |daily_subtitle_position_rom        |12      |0       |0       |1       |0       |
+|      fire_control_strip$card                    |console_status_card                |17      |5       |0       |0       |1       |
+|      legacy_analysis$analysis_overlay           |p2_analysis_overlay                |25      |10      |0       |0       |0       |
+|      live_routes$route_display                  |live_route_overlay                 |108     |74      |6       |8       |0       |
+|        background                               |n10_demo_map_renderer              |24      |17      |0       |0       |0       |
+|        geometry                                 |n10_demo_segment_map               |59      |54      |0       |0       |0       |
+|        labels                                   |floor_labels_rom                   |5       |0       |1       |8       |0       |
+|      pixel_shape                                |transition_coordinate_generator    |11      |11      |0       |0       |0       |
+|      quality                                    |image_quality_engine               |272     |19      |76      |4       |1       |
+|        blue_lut                                 |buffer_ram                         |17      |0       |0       |1       |0       |
+|        gamma_table                              |gamma_curve_rom                    |0       |0       |0       |1       |0       |
+|        green_lut                                |buffer_ram                         |8       |0       |0       |1       |0       |
+|        red_lut                                  |buffer_ram                         |9       |0       |0       |1       |0       |
+|      read_coordinates                           |transition_coordinate_generator    |12      |12      |0       |0       |0       |
+|      request_mapper                             |shared_coordinate_mapper           |37      |6       |0       |0       |0       |
+|      scene                                      |alarm_scene_control                |52      |4       |32      |0       |0       |
+|      shared_scene_status$remote_render$status   |remote_status_overlay              |1539    |4       |42      |2       |0       |
+|      status_from_b$row_receiver                 |remote_status_rows                 |117     |0       |201     |0       |0       |
+|  display                                        |status_display                     |75      |4       |18      |0       |0       |
+|  extension_link                                 |pcm_context_tx                     |173     |0       |122     |0       |0       |
+|    serial                                       |uart_tx_8n1                        |22      |0       |17      |0       |0       |
+|  hdmi                                           |hdmi_1_4b_transmitter_core_wrapper |1218    |129     |1416    |16      |0       |
+|    u0_reset_sync                                |hdmi_1_4b_tx_reset_sync            |0       |0       |2       |0       |0       |
+|    u_hdmi_edid_wrapper                          |hdmi_edid_wrapper                  |188     |26      |155     |2       |0       |
+|      u_hdmi_edid_read_controller                |hdmi_edid_read_controller          |17      |6       |11      |0       |0       |
+|      u_iic_master_wrapper                       |iic_master_wrapper                 |171     |20      |144     |2       |0       |
+|        u_iic_bit_transmitter                    |iic_bit_transmitter                |69      |10      |31      |0       |0       |
+|        u_iic_transmitter_controller             |iic_transmitter_controller         |102     |10      |113     |2       |0       |
+|          u_iic_w11_d1024_fifo                   |iic_w11_d1024_fifo                 |26      |0       |55      |2       |0       |
+|    u_hdmi_tx_controller_wrapper                 |hdmi_tx_controller_wrapper         |978     |103     |1259    |14      |0       |
+|      u0_hdmi_tmds_encode                        |hdmi_tmds_encode                   |131     |30      |160     |0       |0       |
+|      u1_hdmi_tmds_encode                        |hdmi_tmds_encode                   |126     |30      |108     |0       |0       |
+|      u2_hdmi_tmds_encode                        |hdmi_tmds_encode                   |129     |30      |108     |0       |0       |
+|      u_hdmi_data_distribution                   |hdmi_data_distribution             |2       |0       |43      |0       |0       |
+|      u_hdmi_island_data_assemble                |hdmi_island_data_assemble          |276     |0       |417     |0       |0       |
+|      u_hdmi_island_data_gen                     |hdmi_island_data_gen               |236     |5       |288     |11      |0       |
+|        U_audio_sample_packet_2_channel          |audio_sample_packet_2_channel      |110     |5       |171     |11      |0       |
+|          u_w96_d1024_fifo                       |w96_d1024_fifo                     |24      |0       |55      |11      |0       |
+|          u_BCH_32_24_encode                     |BCH_32_24_encode                   |0       |0       |1       |0       |0       |
+|          u_BCH_64_56_encode                     |BCH_64_56_encode                   |0       |0       |8       |0       |0       |
+|        u_audio_clock_regeneration_packet        |audio_clock_regeneration_packet    |6       |0       |9       |0       |0       |
+|          u_BCH_64_56_encode                     |BCH_64_56_encode                   |0       |0       |1       |0       |0       |
+|      u_hdmi_video_data_assemble                 |hdmi_video_data_assemble           |0       |0       |40      |0       |0       |
+|      u_hdmi_video_source                        |hdmi_video_source                  |51      |8       |38      |0       |0       |
+|      u_video_axi_stream_receiver                |video_axi_stream_receiver          |27      |0       |57      |3       |0       |
+|        u_w24_d1024_fifo                         |w24_d1024_fifo                     |25      |0       |55      |3       |0       |
+|  memory                                         |memory_phy                         |177     |9       |485     |0       |0       |
+|    controller                                   |sdr_as_ram                         |177     |9       |485     |0       |0       |
+|      u1_init_ref                                |sdr_init_ref                       |30      |9       |96      |0       |0       |
+|      u2_wrrd                                    |sdr_wrrd                           |71      |0       |389     |0       |0       |
+|  permission                                     |audio_play_permission              |22      |5       |9       |0       |0       |
+|  phy                                            |hdmi_phy_wrapper                   |33      |0       |46      |0       |0       |
+|    u0_lane_lvds_8_1                             |lane_lvds_10_1                     |11      |0       |17      |0       |0       |
+|    u1_lane_lvds_8_1                             |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|    u2_lane_lvds_8_1                             |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|    u3_lane_lvds_8_1                             |lane_lvds_10_1                     |2       |0       |5       |0       |0       |
+|  resync                                         |v41_resync_receiver                |39      |0       |48      |0       |0       |
+|  telemetry                                      |v41_telemetry_monitor              |59      |15      |82      |0       |0       |
+|  read_alignment                                 |sdram_read_alignment               |0       |0       |32      |0       |0       |
++----------------------------------------------------------------------------------------------------------------------------------+
